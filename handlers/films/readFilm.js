@@ -1,4 +1,4 @@
-let films = require("../top250.json");
+let films = require("../../top250.json");
 const ErrorObject = { code: 400, message: 'Invalid request' };
 
 module.exports.readFilm = function(req, res, payload, cb) {

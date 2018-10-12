@@ -1,5 +1,5 @@
-let films = require("../top250.json");
-const valid = require("../valid.js");
+let films = require("../../top250.json");
+const valid = require("./valid.js");
 const fs = require('fs');
 const ErrorObject = { code: 400, message: 'Invalid request' };
 
